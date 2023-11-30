@@ -1,0 +1,31 @@
+version: "3.9"
+services:
+  db:
+    image: "linuxserver/mariadb:latest"
+    container_name: bcnf # docker compose up -d
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: wlg_2
+    expose:
+      - 3306
+    ports:
+      - "3306:3306"
+    restart: unless-stopped
+    volumes:
+      - /var/lib/docker/volumes/mariadb:/var/lib/mysql
+  serv:
+    image: "flashspys/nginx-static"
+    container_name: data
+    environment:
+      - VIRTUAL_HOST=localhost
+    expose:
+      - 8000
+    ports:
+      - "8000:80"
+    restart: unless-stopped
+    volumes:
+      - ./files:/static/files # ./files:/usr/share/nginx/html/files
+volumes:
+  db:
+  serv:

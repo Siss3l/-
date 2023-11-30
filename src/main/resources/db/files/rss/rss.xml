@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title><![CDATA[WLG]]></title>
+    <description><![CDATA[Wakfu Les Gardiens 2 est un jeu de rôle en ligne massivement multijoueur (MMOPRG) sur navigateur web, produit, développé et édité par Ankama Games.]]></description>
+    <link>http://localhost:4444/</link>
+    <language>fr</language>
+    <copyright><![CDATA[WLG © 2021]]></copyright>
+    <lastBuildDate>Wed, 01 January 2021 00:00:00 +0200</lastBuildDate>
+    <pubDate>Wed, 01 January 2021 00:00:00 +0200</pubDate>
+    <url>favicon.ico</url>
+    <item>
+      <title><![CDATA[Wakfu Les Gardiens 2]]></title>
+      <description><![CDATA[<p><strong>Rien à signaler</strong></p>]]></description>
+      <!--link><![CDATA[http://localhost:4444/]]></link-->
+      <category><![CDATA[News]]></category>
+      <pubDate>Mercredi, 01 Janvier 2021</pubDate>
+      <guid isPermaLink="false">...</guid>
+    </item>
+  </channel>
+</rss>

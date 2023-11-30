@@ -1,0 +1,27 @@
+[
+  {
+    "client": {
+      "version": "1.12.0s"
+    }
+  },
+  {
+    "db": {
+      "connectionTimeout": 250,
+      "dbName": "wlg_2",
+      "dbPort": 3306,
+      "driverClassName": "org.mariadb.jdbc.Driver",
+      "hostname": "localhost",
+      "jdbcType": "mariadb",
+      "maximumPoolSize": 100,
+      "password": "",
+      "username": ""
+    }
+  },
+  {
+    "tcp": {
+      "authPort": "6556",
+      "gamePort": "6557",
+      "host": "localhost"
+    }
+  }
+]
