@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test
 /**
  * This class contains unit tests for the `Hashing` utility.
  * Other comparative measures of assertion can also be considered.
+ * TODO: Keycloak, JWS lang, Ip2asn, interpolation maps and so on.
  */
 internal class HashingTest {
     private val key = (1..32).map { ('a'..'z').toList().random() }.shuffled().joinToString("")
